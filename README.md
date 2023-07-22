@@ -16,8 +16,8 @@ A preprocessing step ensures that the audio files are compared fairly by making 
 
 SNR between the original audio and the compressed audio files is calculated. 
 
-SNR Value for mp3 file : -3.0063
-SNR Value for aac file : -2.7980
+      SNR Value for mp3 file : -3.0063
+      SNR Value for aac file : -2.7980
 
 A higher SNR indicates a higher quality audio file, meaning the noise introduced due to compression is low.
 
@@ -25,8 +25,8 @@ A higher SNR indicates a higher quality audio file, meaning the noise introduced
 
 This measurement tells about the harmonic distortion introduced in the audio due to compression.
 
-THD Value for mp3 file : -20.7849
-THD Value for aac file : -20.7784
+      THD Value for mp3 file : -20.7849
+      THD Value for aac file : -20.7784
 
 ### 3. Spectrogram Comparison
 
