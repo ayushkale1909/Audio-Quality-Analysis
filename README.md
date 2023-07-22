@@ -24,15 +24,23 @@ This measurement tells about the harmonic distortion introduced in the audio due
 
 ### 3. Spectrogram Comparison
 
+![Alt Text](Figures/Spectrogram_Comparision_aac.bmp)
+
+![Alt Text](Figures/Spectrogram_Comparision_mp3.bmp)
+
 Spectrograms and the difference between the spectrograms of the original and compressed audio files provide a visual way to examine the change in  frequency content of the audio files.   
 
 ### 4. Time-Domain Plot
 
 Original and compressed audio signals are plotted in the time domain to see how the signal's waveform is altered. 
 
+![Alt Text](Figures/Time_Domain_Plot.bmp)
+
 ### 5. Spectral Line Plot 
 
 Magnitude of the FFT (Fast Fourier Transform) of the original and compressed audio signals is plotted. 
+
+![Alt Text](Figures/Spectral_Line_Plot.bmp)
 
 This gives a visualization of the audio signal's frequency content.
 
@@ -40,12 +48,16 @@ This gives a visualization of the audio signal's frequency content.
 
 The frequency responses of the original and compressed audio signals offering insight into how the frequency content changes due to compression.
 
+![Alt Text](Figures/Frequency_Response.bmp)
+
 ### 7. Power Spectral Density (PSD)
 
 The Power Spectral Density (PSD) of each audio signal is compared. It compares the power present in the frequency components of the signal.
 
 When comparing the PSD plots of the original, MP3, and AAC audio files, there are differences, particularly at high frequencies (15 to 20 KHz).  
 The AAC audio file showed lower power at these high frequencies, and two peaks present in the original and MP3 files were missing. 
+
+![Alt Text](Figures/Power_Spectral_Density.bmp)
 
 This suggests that the AAC compression process may have removed or reduced some high-frequency components of the audio signal, which can result in a perceived change in audio quality. These high-frequency components can contribute to the overall sound for professional audio equipments.  
 
@@ -66,6 +78,8 @@ These values suggest that the compressed audio files (MP3 and AAC) had slightly 
 ### 9. Frequency Response Difference 
 
 Difference in frequency response was computed by taking the absolute difference in the magnitudes of the original frequency response and the frequency responses of the compressed audio files.
+
+![Alt Text](Figures/Difference_in_Frequency_Response.bmp)
 
 Spikes in these plots indicate frequencies where the compression algorithms have noticeably altered the frequency content of the audio signal.
 
