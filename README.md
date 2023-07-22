@@ -11,25 +11,25 @@ A preprocessing step ensures that the audio files are compared fairly by making 
 
 ## Results 
 
-### SNR 
+### 1. SNR 
 
 SNR between the original audio and the compressed audio files is calculated. 
 
 A higher SNR indicates a higher quality audio file, meaning the noise introduced due to compression is low.
 
-### THD (Total Harmonic Distortion) 
+### 2. THD (Total Harmonic Distortion) 
 
 This measurement tells about the harmonic distortion introduced in the audio due to compression.
 
-### Spectrogram Comparison
+### 3. Spectrogram Comparison
 
 Spectrograms and the difference between the spectrograms of the original and compressed audio files provide a visual way to examine the change in  frequency content of the audio files.   
 
-### Time-Domain Plot
+### 4. Time-Domain Plot
 
 Original and compressed audio signals are plotted in the time domain to see how the signal's waveform is altered. 
 
-### Spectral Line Plot 
+### 5. Spectral Line Plot 
 
 Magnitude of the FFT (Fast Fourier Transform) of the original and compressed audio signals is plotted. 
 
