@@ -1,5 +1,5 @@
 # Audio-Quality-Analysis
-Comparative Audio Quality Analysis of MP3 and AAC Compression Formats
+Comparision and Audio Quality Analysis of MP3 and AAC Compression Formats
 
 ## Description
 
