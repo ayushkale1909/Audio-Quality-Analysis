@@ -56,6 +56,7 @@ The ZCR, the rate at which the signal changes its sign shows differences in the 
 High ZCR often indicates the presence of noise or a non-musical sound. 
 
 Results of the ZCR : 
+   
     Zero-crossing Rate of Original: 0.016165
     Zero-crossing Rate of MP3: 0.016525
     Zero-crossing Rate of AAC: 0.016119
